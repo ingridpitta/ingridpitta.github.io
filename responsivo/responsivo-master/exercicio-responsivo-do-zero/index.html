@@ -15,157 +15,169 @@
     </head>
 
     <body>
+        <section class="container">
+            <header class="container__cabecalho--navegacao">
+                <nav class="navegacao">
 
-        <nav class="navegacao">
+                    <ul class="menu">
+                        <li><a class="link" href="#sobre">Sobre</a></li>
+                        <li><a class="link" href="#destinos">Destinos</a></li>
+                        <li><a class="link" href="#contato">Contato</a></li>
+                    </ul>
 
-            <ul class="menu">
-                <li><a class="menu__item" href="#sobre">Sobre</a></li>
-                <li><a class="menu__item" href="#destinos">Destinos</a></li>
-                <li><a class="menu__item" href="contato">Contato</a></li>
-            </ul>
+                </nav>
+            </header>
 
-        </nav>
+            <section class="banner">
 
-        <header class="banner">
+                <div class="cabecalho">
 
-            <div class="cabecalho">
-                <h1 class="conteudo__texto--h1">MUNDO GELADO</h1>
-                <h2 class="conteudo__texto--h2">A agência de viagens que te leva aos lugares mais congelantes do planeta.</h2>
-                <button class="btn"><a href="#sobre">QUERO SABER MAIS </a></button>
-            </div>
-
-        </header>
-
-        <section class="apresentacao">
-
-            <div class="apresentacao__conteudo">
-                <h2 class="conteudo__texto--h2">A agência Mundo Gelado</h2>
-                <p class="conteudo__paragrafo">Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens no nosso planeta, com conforto e segurança.</p>
-            </div>
-
-        </section>
-
-        <section class="destaque">
-
-                <div class="siberia__imagem">
-                    <img src="img/siberia-1.jpg" alt="Foto Sibéria" title="Foto Sibéria">
+                <div class="conteudo">
+                    <h1 class="conteudo__texto--h1">MUNDO GELADO</h1>
+                    <h2 class="conteudo__texto--h2">A agência de viagens que te leva aos lugares mais congelantes do planeta.</h2>
                 </div>
 
-                <div class="siberia__descricao">
-                    <h4 class="conteudo__texto--h4">Sibéria</h4>
-                    <p class="conteudo__paragrafo--destinos">O clima varia entre o clima polar e o clima continental. Na Sibéria situa-se o local habitado mais frio do mundo, a aldeia de Oymyakon.</p>
-                </div>
-
-        </section>
-
-        <section class="mosaico">
-
-            <div class="mosaico__container">
-
-                <div class="mosaico__imagem">
-                    <img src="img/groenlandia-1.jpg" alt="Foto Groelândia" title="Foto Groelândia">
-                </div>
-
-                <div class="chamada">
-                    <h4 class="conteudo__texto--h4">Groelândia</h4>
-                    <p class="conteudo__paragrafo--destinos">A Groenlândia é a maior ilha do mundo e tem mais de 44 000 km de linha de costa. A população é escassa, confinada a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas ultrapassada pela Antártida.</p>
-                    <hr class="destinos__linha">
-                </div>
-
-            </div>
-                
-            <div class="mosaico__container">
-
-                <div class="chamada">
-                    <h4 class="conteudo__texto--h4">Antártida</h4>
-                    <p class="conteudo__paragrafo--destinos">É o continente mais frio, mais seco, com a maior média de altitude e de maior índice de ventos fortes do planeta.[1] A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a temperatura média na costa, durante o verão, de -10 °C; no interior do continente, é de -40 °C</p>
-                    <hr class="destinos__linha">
-                </div>
-
-                <div class="mosaico__imagem">
-                    <img src="img/antartida-1.jpg" alt="Foto Antártida" title="Foto Antártida">
-                </div>
-
-            </div>
-                
-        </section>
-
-        <section class="localizacao">
-
-            <div class="localizacao__mapa">
-
-                <div class="mapa__icone">
-                    <img src="img/icone-localizacao.png" alt="Ícone de Localização" title="Ícone de Localização">
-                </div>
-
-                <div class="mapa__titulo">
-                    <h2 class="conteudo__texto--h2">Aonde estamos</h2>
-                </div>
-
-                <div class="mapa__imagem">
-                    <img src="img/mapa.png">
-                </div>
-
-                <div class="localizacao__contato">
-                    <h2 class="conteudo__texto--h2">Fale com a gente</h2>
-                </div>
-            </div>
-
-            <div class="formulario">
-
-                <form class="formulario__informacoes">
-
-                    <div class="formulario__blocotxt">
-                        <label class="formulario__label">Nome Completo</label>
-                        <input class="formulario__input" type="text" placeholder="Fulano de Tal">
+                    <div class="container__btn">
+                        <button class="btn"><a class= "link" href="#sobre">QUERO SABER MAIS </a></button>
                     </div>
 
-                    <div class="formulario__blocotxt">
-                        <label class="formulario__label">E-mail</label>
-                        <input class="formulario__input" type="email" placeholder="fulanodetal@gmail.com">
+                </div>
+            </section>
+
+            <section id="sobre" class="apresentacao">
+
+                <div class="apresentacao__conteudo">
+                    <h2 class="apresentacao__texto--h2">A agência Mundo Gelado</h2>
+                    <div class="apresentacao__paragrafo">
+                        <p>Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens no nosso planeta, com conforto e segurança.</p>
+                        <p>Nossos pacotes são completos e oferecem uma experiência inesquecível para você.</p>
+                        <p>Veja abaixo nossos destinos disponíveis, e se tiver alguma dúvida ou sugestão, entre em contato com a gente.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="destinos" class="destaque">
+                <div class="destaque__destinos">
+                    <div class="siberia__imagem">
+                        <img src="img/siberia-1.jpg" alt="Foto Sibéria" title="Foto Sibéria">
                     </div>
 
-                    <div class="formulario__blocotxt">
-                        <label class="formulario__label">Telefone</label>
-                        <input class="formulario__input"  type="tel" placeholder="11 87589-8764">
+                    <div class="siberia__descricao">
+                        <h4 class="destaque__texto--h4">Sibéria</h4>
+                        <p class="conteudo__paragrafo--siberia">O clima varia entre o clima polar e o clima continental. Na Sibéria situa-se o local habitado mais frio do mundo, a aldeia de Oymyakon.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mosaico">
+
+                <div class="mosaico__container--groelandia">
+                    
+                    <div class="mosaico__imagem">
+                        <img class="imagem__groelandia" src="img/groenlandia-1.jpg" alt="Foto Groelândia" title="Foto Groelândia">
                     </div>
 
-                    <div class="formulario__blocotxt">
-                        <label class="formulario__label">Mensagem</label>
-                        <textarea class="formulario__textarea" rows="5" placeholder="Oi!" ></textarea>
+                    <div class="chamada">
+                        <h4 class="conteudo__texto--h4">Groelândia</h4>
+                        <p class="conteudo__paragrafo--destinos">A Groenlândia é a maior ilha do mundo e tem mais de 44 000 km de linha de costa. A população é escassa, confinada a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas ultrapassada pela Antártida.</p>
+                        <hr class="destinos__linha">
                     </div>
 
-                    <div class="formulario__botao"><button class="btn" type="submit">Enviar</button>
+                </div>
+                    
+                <div class="mosaico__container--antartida">
+
+                    <div class="chamada">
+                        <h4 class="conteudo__texto--h4">Antártida</h4>
+                        <p class="conteudo__paragrafo--destinos">É o continente mais frio, mais seco, com a maior média de altitude e de maior índice de ventos fortes do planeta.[1] A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a temperatura média na costa, durante o verão, de -10 °C; no interior do continente, é de -40 °C</p>
+                        <hr class="destinos__linha">
                     </div>
 
-                </form>
+                    <div class="mosaico__imagem">
+                        <img class="imagem__antartida" src="img/antartida-1.jpg" alt="Foto Antártida" title="Foto Antártida">
+                    </div>
 
-            </div>  
+                </div>
+                    
+            </section>
 
+            <section id="contato" class="localizacao">
+
+                <div class="localizacao__mapa">
+
+                    <div class="mapa__icone">
+                        <img src="img/icone-localizacao.png" alt="Ícone de Localização" title="Ícone de Localização">
+                    </div>
+
+                    <div class="mapa__titulo">
+                        <h2 class="conteudo__texto--h2">Aonde estamos</h2>
+                    </div>
+
+                    <div class="mapa__imagem">
+                        <img src="img/mapa.png">
+                    </div>
+
+                    <div class="localizacao__contato">
+                        <h2 class="conteudo__texto--h2">Fale com a gente</h2>
+                    </div>
+                </div>
+
+                <div class="formulario">
+
+                    <form class="formulario__informacoes">
+
+                        <div class="formulario__blocotxt">
+                            <label class="formulario__label">Nome Completo</label>
+                            <input class="formulario__input" type="text" placeholder="Fulano de Tal">
+                        </div>
+
+                        <div class="formulario__blocotxt">
+                            <label class="formulario__label">E-mail</label>
+                            <input class="formulario__input" type="email" placeholder="fulanodetal@gmail.com">
+                        </div>
+
+                        <div class="formulario__blocotxt">
+                            <label class="formulario__label">Telefone</label>
+                            <input class="formulario__input"  type="tel" placeholder="11 87589-8764">
+                        </div>
+
+                        <div class="formulario__blocotxt">
+                            <label class="formulario__label">Mensagem</label>
+                            <textarea class="formulario__textarea" rows="5" placeholder="Oi!" ></textarea>
+                        </div>
+
+                        <div class="formulario__botao"><button class="btn" type="submit">Enviar</button>
+                        </div>
+
+                    </form>
+
+                </div>  
+
+            </section>
+
+            <section class="contato">
+
+                <div class="contato__telefone">
+                    <a class="link" href="tel:111234-5678">Telefone: (11) 1234-5678</a>
+                </div>
+
+                <div class="contato__redes">
+                    <a class="link" href="#"><img src="img/twitter.png" alt="Twitter" title="Twitter"></a>
+                    <a class="link" href="#"><img src="img/facebook.png" alt="Facebook" title="Facebook"></a>
+                    <a class="link" href="#"><img src="img/youtube.png" alt="Youtube" title="Youtube"></a>
+                </div>
+
+            </section>
+
+            <footer class="rodape">
+
+                <div class="rodape__conteudo">
+                    <h5 class="conteudo__texto--h5">Copyright © Agência Mundo gelado 2018</h5>
+                </div>
+
+            </footer>
         </section>
-
-        <section class="contato">
-
-            <div class="contato__telefone">
-                <a class="link" href="tel:111234-5678">Telefone: (11) 1234-5678</a>
-            </div>
-
-            <div class="contato__redes">
-                <a class="link" href="#"><img src="img/twitter.png" alt="Twitter" title="Twitter"></a>
-                <a class="link" href="#"><img src="img/facebook.png" alt="Facebook" title="Facebook"></a>
-                <a class="link" href="#"><img src="img/youtube.png" alt="Youtube" title="Youtube"></a>
-            </div>
-
-        </section>
-
-        <footer class="rodape">
-
-            <div class="rodape__conteudo">
-                <h5 class="conteudo__texto--h5">Copyright © Agência Mundo gelado 2018</h5>
-            </div>
-
-        </footer>
-
     </body>
-
 </html>
