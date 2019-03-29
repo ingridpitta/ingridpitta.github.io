@@ -1,0 +1,151 @@
+
+body { 
+    background-color: rgba(179,130,186,36%);
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: none;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.cabecalho__titulo{
+    color: #5d1277;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.cabecalho__subtitulo{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.pagina{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.container__conteudo, .container__ilustracao{
+    width: 40%; 
+    margin: 0 20px;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.conteudo__subtitulo{
+    color:black;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.ilustracao__gif{
+    width: 90%;
+}
+
+.conteudo__btn{
+    display: flex;
+    align-items: center;
+
+}
+
+.conteudo__btn--roxo{
+    background-color: #5d1277;
+    padding: 20px;
+    border: 0;
+    color: #ffffff;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.conteudo__btn--transparente{
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #5d1277; 
+    color: #5d1277;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Responsividade */
+
+@media(max-width: 768px){
+    .cabecalho{
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho__titulo{
+        font-size: 30px;
+    }
+
+    .cabecalho__subtitulo{
+        font-size:20px;
+    }
+
+    .pagina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container__conteudo , .container__ilustracao{
+        width: 70%;
+    }
+
+    .container__ilustracao{
+        margin-top: 5%;
+        margin-left: 13.5%;
+        width: 80%;  
+    }
+
+    .conteudo__btn--roxo, .conteudo__btn--transparente{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 420px){
+
+    .cabecalho__titulo{
+        font-size: 25px;
+    }
+
+    .cabecalho__subtitulo{
+        font-size:20px;
+    }
+
+    .conteudo__btn{
+        display: block;
+        width: 100%;
+    }
+
+    .conteudo__btn--roxo, .conteudo__btn--transparente{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 2.5%;
+    }
+}
