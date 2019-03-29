@@ -34,7 +34,7 @@
     padding: 0;
     margin:0;
     list-style: none;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 .banner{
@@ -166,88 +166,27 @@
     letter-spacing: 1px;
 }
 
+.mosaico{
+    padding: 100px;
 
-
+}
 
 .mosaico__container--groelandia, .mosaico__container--antartida{
     display: flex;
-    width:100%;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    height: 414px;
 }
 
-.mosaico__imagem{
-    width: 50%;
-    padding: 0;
-    margin:0;
-}
-
-.mosaico__imagem > img{
-    width: 100%;
+.imagem__groelandia, .imagem__antartida{
+    max-height: 414px;
+    height: auto;
+    display: block;
+    width: auto;
 }
 
 .chamada{
-    width: 50%;
     background-color: #000;
-    background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%);
-    letter-spacing: 1px;
+    padding: 125px;
+    border:none;
 }
-
-
-.mosaico__container--groelandia{
-    padding-bottom: 0;
-}
-
-.mosaico__container--antartida{
-    padding-top: 0;
-}
-
-.conteudo__paragrafo--destinos{
-    width: 50%;
-    letter-spacing: 1px;
-}
-
-.destinos__linha{
-    width: 10%;
-}
-/* .destaque{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.siberia__imagem{
-    width: 90%;
-}
-
-.siberia__imagem > img{
-    width: 100%;
-}
-
-.siberia__descricao{
-    margin: 0 auto;
-    width: 50%;
-    border-left: 5px solid #829dad;
-    padding-left: 32px;
-}
-
-.destaque__texto--h4{
-    font-family: 'Nunito', sans-serif;
-    font-size: 24px;
-    margin:0;
-    margin-bottom: 8px;
-    color: #000;
-    opacity: 0.8;
-    font-weight: normal;
-}
-
-.conteudo__paragrafo--destinos{
-    margin:0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    color: #000;
-    opacity: 0.5;;
-}
-
- */
