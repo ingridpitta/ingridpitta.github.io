@@ -1,0 +1,316 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-image: -webkit-gradient(linear, left top, right top, from(#e0c3fc), to(#8ec5fc));
+}
+
+.container{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-weight: bolder;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 10%;
+    font-size: 16px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.btn{
+    padding: 5%;
+    background-color: #ba7af8;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.div-conteudo{
+    margin-top: 1%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+/* Documentação Mozila */
+::-moz-selection{ 
+    background: transparent;
+}
+
+::selection{
+    background: transparent;
+}
+
+.div-conteudo:hover{
+    cursor: grab;
+}
+
+.div-conteudo:default{
+    cursor: none;
+}
+
+.div-conteudo:double-button{
+    cursor: none;
+}
+
+.div-conteudo:active{
+    cursor: grabbing;
+}
+
+.div-conteudo p{
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.div-conteudo input{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.div-conteudo input:focus{
+    outline: none;
+}
+
+.div-conteudo button{
+    margin: 0 10px;
+    padding: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: transparent;
+}
+
+.div-conteudo button:focus{
+    outline: none;
+}
+
+.btnRodape{
+    display: none;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    background-color: #ba7af8;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btnRodape:focus{
+    outline: none;
+}
+
+.btn-excluir{
+    border: none;
+    justify-content: flex-end;
+}
+
+@media(max-width:980px){
+    .container{
+        max-width: 30%;
+        
+    }
+
+    .titulo{
+        font-size: 20%;
+    }
+
+    .input{
+        font-size: 10px;
+    }
+
+    .btn{
+        font-size: 20%;
+    }
+
+    .div-conteudo{
+        margin-top: 0.5%;
+        font-size: 10px;
+    }
+
+    .div-conteudo p{
+        font-size: 10px;
+    }
+
+    .div-conteudo input{
+        width: 8%;
+    }
+
+    .div-conteudo button{
+        width: 10px;  
+    }
+
+    .btn-excluir{
+        font-size: 5px;
+    }
+    
+    .btnRodape{
+        padding: 5px;
+        border-radius: 2px;
+        margin: 1%;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:640px){
+    .container{
+        max-width: 30%;
+        
+    }
+
+    .titulo{
+        font-size: 20%;
+    }
+
+    .input{
+        font-size: 8px;
+    }
+
+    .btn{
+        font-size: 20%;
+    }
+
+    .div-conteudo{
+        margin-top: 0.5%;
+        font-size: 8px;
+    }
+
+    .div-conteudo p{
+        font-size: 8px;
+    }
+
+    .div-conteudo input{
+        width: 8%;
+    }
+
+    .div-conteudo button{
+        width: 10px;  
+    }
+
+    .btn-excluir{
+        font-size: 5px;
+    }
+
+    .btnRodape{
+        padding: 3px;
+        border-radius: 1px;
+        margin: 1%;
+        font-size: 5px;
+    }
+}
+
+@media(max-width:425px){
+    .container{
+        max-width: 30%;
+        
+    }
+
+    .titulo{
+        font-size: 20%;
+    }
+
+    .input{
+        font-size: 8px;
+    }
+
+    .btn{
+        font-size: 20%;
+    }
+
+    .div-conteudo{
+        margin-top: 0.5%;
+        font-size: 8px;
+    }
+
+    .div-conteudo p{
+        font-size: 8px;
+    }
+
+    .div-conteudo input{
+        width: 8%;
+    }
+
+    .div-conteudo button{
+        width: 10px;  
+    }
+
+    .btn-excluir{
+        font-size: 5px;
+    }
+
+    .btnRodape{
+        padding: 3px;
+        border-radius: 1px;
+        margin: 1%;
+        font-size: 5px;
+    }
+}
+
+@media(max-width:375px){
+    .container{
+        max-width: 30%;
+        
+    }
+
+    .titulo{
+        font-size: 6px;
+    }
+
+    .input{
+        font-size: 6px;
+    }
+
+    .btn{
+        font-size: 6px;
+    }
+
+    .div-conteudo{
+        margin-top: 0.2%;
+        font-size: 6px;
+    }
+
+    .div-conteudo p{
+        font-size: 6px;
+    }
+
+    .div-conteudo input{
+        width: 6%;
+    }
+
+    .div-conteudo button{
+        width: 8px;  
+    }
+
+    .btn-excluir{
+        font-size: 3px;
+    }
+
+    .btnRodape{
+        padding: 2px;
+        border-radius: 0.5px;
+        margin: 1%;
+        font-size: 3px;
+    }
+}
